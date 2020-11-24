@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UBo5uOe3CY8F8gcFXy6DGZOsGyi5nUwae0NxRAI2wlLrOCR+M2MJFrY5nTI+kitOgJoo5HxtjjG6EZNd45Epag==",
+  "dgSpecHash": "6TXD0c7jGwXB7RkgYOYX+6CE2od5WS+Wca0m8pQYHFERY3fu2Rma8hdUVIuvXzKvYXywImUn3qjibLAcEQIj7Q==",
   "success": true,
   "projectFilePath": "D:\\Archivos\\AppsMoviles\\Apps\\Chambify\\Chambify.iOS\\Chambify.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\angel\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],

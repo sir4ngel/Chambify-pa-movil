@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IBiBh6GwP8UD48McFuteU7SszU+uRj9Fj/N9yuDm0cMuRXoU2IivgA7pEC1M3kPdZdsOu1py/NNlrDYFEj/jTA==",
+  "dgSpecHash": "H4CxQoTz+YMjWsKLgdHPshg+Y6ipzMaSldYh6/2a3xWKDoKd1FlDjqIj1rmAFMzQjcuT5FNZrEvPSs+c4PPAVQ==",
   "success": true,
   "projectFilePath": "D:\\Archivos\\AppsMoviles\\Apps\\Chambify\\Chambify.UWP\\Chambify.UWP.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.1.9\\microsoft.netcore.universalwindowsplatform.6.1.9.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.ui.xaml\\2.3.191211002\\microsoft.ui.xaml.2.3.191211002.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.1.9\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.1.9.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.1.8\\runtime.win10-arm.microsoft.net.native.compiler.2.1.8.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.1.8\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.1.8.nupkg.sha512",

@@ -1,0 +1,16 @@
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\bin\Debug\netstandard2.0\Chambify.deps.json
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\bin\Debug\netstandard2.0\Chambify.dll
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\bin\Debug\netstandard2.0\ref\Chambify.dll
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\bin\Debug\netstandard2.0\Chambify.pdb
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Chambify.csprojAssemblyReference.cache
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Chambify.AssemblyInfoInputs.cache
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Chambify.AssemblyInfo.cs
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Chambify.dll
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\ref\Chambify.dll
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Chambify.pdb
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Chambify.csproj.CoreCompileInputs.cache
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Archivos\AppsMoviles\Apps\Chambify\Chambify\obj\Debug\netstandard2.0\Servicios.xaml.g.cs

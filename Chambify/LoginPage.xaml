@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chambify.LoginPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0" Padding="20, 30">
+                    <Entry
+                        x:Name="TxName"
+                        Placeholder="Usuario"
+                        MaxLength="10"/>
+                    <Entry 
+                        x:Name="TxPassword"
+                        Placeholder="Contraseña"
+                        IsPassword="True"
+                        MaxLength="10"/>
+                    <Button 
+                        x:Name="BtnEnter"
+                        Text="Ingresar"
+                        Clicked="BtnEnter_Clicked"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
