@@ -4,22 +4,36 @@
              x:Class="Chambify.Servicios">
     <ContentPage.Content>
         <Grid>
-            <ListView x:Name="servicios">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding Nombre}"
-                                       HorizontalOptions="FillAndExpand"/>
+            <BoxView Color="White" 
+                     ></BoxView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Frame >
+                    <Label Grid.Row="0" Text="Servicios" TextColor="Black" FontSize="Title" HorizontalTextAlignment="Center" ></Label>
+                </Frame>
+                <ListView Grid.Row="1" x:Name="servicios">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
                                 <StackLayout>
-                                <Label Text="{Binding Oficio}"
-                                       HorizontalOptions="FillAndExpand"/>
+                                    <Label Text="{Binding Nombre}"
+                                       HorizontalOptions="FillAndExpand"
+                                           TextColor="Black"/>
+                                    <StackLayout>
+                                        <Label Text="{Binding Oficio}"
+                                       HorizontalOptions="FillAndExpand"
+                                               TextColor="Black"/>
+                                    </StackLayout>
                                 </StackLayout>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

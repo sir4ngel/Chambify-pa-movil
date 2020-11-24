@@ -4,6 +4,8 @@
              x:Class="Chambify.LoginPage">
     <ContentPage.Content>
         <Grid>
+            <BoxView Color="White" 
+                     ></BoxView>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -15,16 +17,23 @@
                     <Entry
                         x:Name="TxName"
                         Placeholder="Usuario"
-                        MaxLength="10"/>
+                        MaxLength="10"
+                        PlaceholderColor="Black"
+                        TextColor="Black"/>
                     <Entry 
                         x:Name="TxPassword"
                         Placeholder="Contraseña"
                         IsPassword="True"
-                        MaxLength="10"/>
+                        MaxLength="10"
+                        PlaceholderColor="Black"
+                        TextColor="Black"/>
                     <Button 
                         x:Name="BtnEnter"
-                        Text="Ingresar"
-                        Clicked="BtnEnter_Clicked"/>
+                        Text="INGRESAR"
+                        Clicked="BtnEnter_Clicked"
+                        BackgroundColor="#AEBE27"
+                        TextColor="Black"
+                        BorderRadius="20"/>
                 </StackLayout>
             </Grid>
         </Grid>
