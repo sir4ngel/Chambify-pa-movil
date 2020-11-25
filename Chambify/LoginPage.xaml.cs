@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -38,11 +39,18 @@ namespace Chambify
             client = new ApiRest();
             string jsonUsers = client.GetItems(url);
             List<Users> usuarios = JsonConvert.DeserializeObject<List<Users>>(jsonUsers);
-
-            
-            for(int i = 0; i < usuarios.Count;)
+            SHA1 sha1 = SHA1CryptoServiceProvider.Create();
+            Byte[] textOriginal = ASCIIEncoding.Default.GetBytes(password);
+            Byte[] hash = sha1.ComputeHash(textOriginal);
+            StringBuilder cadena = new StringBuilder();
+            foreach (byte i in hash)
             {
-                if (usuarios[i].Usuario.Equals(name) && usuarios[i].Contrasena.Equals(password))
+                cadena.AppendFormat("{0:x2}", i);
+            }
+
+            for (int i = 0; i < usuarios.Count;)
+            {
+                if (usuarios[i].Usuario.Equals(name) && usuarios[i].Contrasena.Equals(cadena.ToString()))
                 {
                     await Navigation.PushAsync(new MainPage(usuarios[i].Nombre));
                     break;
